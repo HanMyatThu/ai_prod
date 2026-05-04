@@ -19,7 +19,20 @@ export function VoicePreviewPlaceholder() {
             <AudioLines className="text-muted-foreground size-5" />
           </div>
         </div>
+
+        <p className="text-lg font-semibold tracking-tight text-foreground">
+          Preview will appear here
+        </p>
+
+        <p className="max-w-64 text-sm text-muted-foreground">
+          Once you generate, your audio result will appear here. Sit back and
+          relax.
+        </p>
       </div>
+      <Button variant="outline" size="sm">
+        <BookOpen />
+        Dont&apos;t know how?
+      </Button>
     </div>
   );
 }
