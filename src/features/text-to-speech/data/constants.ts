@@ -1,2 +1,2 @@
-export const COST_PER_UNIT = 2;
-export const TEXT_MAX_LENGTH = 30;
+export const COST_PER_UNIT = 0.0003;
+export const TEXT_MAX_LENGTH = 5000;
